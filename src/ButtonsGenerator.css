@@ -1,0 +1,77 @@
+.container {
+  width: 480px;
+  margin: auto 40px;
+  padding: 28px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #008fb7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input-group-label {
+  text-align: left;
+  color: #18bbe8ff;
+  text-transform: capitalize;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.generate-btn {
+  padding: 12px 0;
+  background: linear-gradient(90deg, #05c9ff 0%, #173ae9 100%);
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.generate-btn:disabled {
+  opacity: 0.6;
+}
+.generate-btn span {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.error {
+  color: #d32f2f;
+  background: #fff0f0;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.result {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.field {
+  text-transform: capitalize;
+}
